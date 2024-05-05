@@ -1,0 +1,12 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "sleep 1 && echo a"
+  },
+  "dependencies": {
+    "b": "workspace:*",
+    "c": "workspace:*"
+  }
+}
